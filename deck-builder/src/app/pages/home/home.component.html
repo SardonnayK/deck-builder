@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngFor="let card of cardsList">
+    <app-card [card]="card"></app-card>
+  </div>
+</div>
+
+<footer class="footer">
+  <input [(ngModel)]="goalPrompt" style="margin-right: 50px" placeholder="Add a new card" />
+  <button (click)="handleNewCard()" class="plus-button">+</button>
+</footer>

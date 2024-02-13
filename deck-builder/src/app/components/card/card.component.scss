@@ -1,0 +1,21 @@
+.card {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  /* Adjust as needed */
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-text {
+  height: 100px;
+  /* Other styles as needed */
+}

@@ -1,0 +1,17 @@
+.container {
+  height: calc(100vh - 50px);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #b12c2c;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: white;
+}
+
+button {
+  background-color: #a4d5f7;
+  color: red;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <button [ngStyle]="{ 'background-color': aiService.profile.age === 20 ? 'green' : 'white' }" (click)="handle1()">20 year black male</button>
+  <button [ngStyle]="{ 'background-color': aiService.profile.age === 50 ? 'green' : 'white' }" (click)="handle2()">50 year old asian female</button>
+  <button [ngStyle]="{ 'background-color': aiService.profile.age === 40 ? 'green' : 'white' }" (click)="handle4()">40 year old white Female</button>
+
+  <br />
+  {{ aiService.profile | json }}
+</div>

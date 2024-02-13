@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "deck-builder-8846f": {
+      "hosting": {
+        "deck-builder": [
+          "deck-builder-8846f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "deck-builder-8846f"
+  }
+}
